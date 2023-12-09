@@ -6,8 +6,11 @@ import Project from "@/Components/Project";
 export default function Home(){
   return(
     <div calssName="flex min-h-screen flex-col">
+      <main>
       <HeroSection />
       <Project />
+      </main>
+      
 
     </div>
   );
