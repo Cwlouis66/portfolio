@@ -37,9 +37,6 @@ const HeroSection = () => {
                       .typeString`<span style="color:#9E7BFF">Data Analyst</span>`
                       .pauseFor(1500)
                       .deleteAll()
-                      .typeString`<span style="color:#893BFF">Penetration Tester</span>`
-                      .pauseFor(1500)
-                      .deleteAll()
                       .start();
   
                   }}
@@ -56,7 +53,7 @@ const HeroSection = () => {
                 </Link>
                
                 <a
-                  href="https://drive.google.com/file/d/1eIfvd7b990Ieb5tPi2OM9VvwjNvPa5oh/view?usp=sharing"
+                  href=""
                   target="_blank"
                   className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
                   <span className="text-xl text-white">View my Resume</span>

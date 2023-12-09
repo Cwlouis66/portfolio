@@ -4,11 +4,18 @@ import ProjectCard from './ProjectCard';
 const projectData = [
     {
         id: 1,
-        title: "LinkedOut & About",
-        description: "This is a project.",
-        image: "/projects/linkedout&about.png",
-        gitUrl: "https://github.com/APU-Blockchain-Cryptocurrency-Club/LinkedOutAndAbout"
+        title: "TicketWave",
+        description: "A project on Blockchain based on ticketing",
+        image: "/projects/TicketWave.png",
+        gitUrl: "https://devfolio.co/projects/ticketwave-f4c7"
 
+    },
+    {
+        id: 2,
+        title: "Cili Lado",
+        description: "This is a project about Data Analytics and Machine Learning on a Malaysian Cili Brand.",
+        image: "/projects/ciliLado.jpg",
+        gitUrl: "https://github.com/JingYuan0926/ChiliLado"
     },
 ];
 
@@ -22,13 +29,13 @@ const Project = () => {
                 key={project.id}
                 title={project.title}
                 description={project.description}
-                imgUrl={project.image}
+                imgUrl={project.image} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
                 gitUrl={project.gitUrl}
                 />
             ))}
             </div>
         </div>
         
-    )
-}
+    );
+};
 export default Project;
