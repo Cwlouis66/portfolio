@@ -16,7 +16,7 @@ const Project = () => {
     return(
         <div>
             <div className= 'text-4xl font-semibold mb-8'>My Projects</div>
-            <div className='Name="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 grid-rows-2 gap-x-8 gap-y-4 md:gap-12 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-2 gap-x-8 gap-y-4 md:gap-12 '>
             {projectData.map((project) =>(
                 <ProjectCard
                 key={project.id}
