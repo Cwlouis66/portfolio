@@ -29,7 +29,7 @@ const Project = () => {
                 key={project.id}
                 title={project.title}
                 description={project.description}
-                imgUrl={project.image} style={{ width: '100%', height: '100%', objectFit: 'scale-down', borderRadius: '12px' }}
+                imgUrl={project.image} style={{ width:200 , height: 100 , objectFit: 'cover', borderRadius: '20px' }}
                 gitUrl={project.gitUrl}
                 />
             ))}

@@ -1,6 +1,9 @@
 import React from "react";
 import HeroSection from "@/Components/HeroSection";
 import Project from "@/Components/Project";
+import AchievementsSection from "@/Components/Achievements";
+import AboutMe from "@/Components/AboutMe";
+import EmailSection from "@/Components/Email";
 
 
 export default function Home(){
@@ -8,7 +11,10 @@ export default function Home(){
     <div calssName="flex min-h-screen flex-col">
       <main>
       <HeroSection />
+      <AchievementsSection />
+      <AboutMe />
       <Project />
+      <EmailSection />
       </main>
       
 
