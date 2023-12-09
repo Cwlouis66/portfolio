@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import {CodeBracketIcon} from '@heroicons/react/24/outline';
 
 
@@ -8,7 +7,9 @@ const ProjectCard =({ imgUrl, title, description, gitUrl}) => {
         <div>
         <div 
         className= 'h-52 rounded-t-xl relative group center center bg-no-repeat'
-        style={{background:`url(${imgUrl})`,backgroundSize:'cover'}}>
+        style={{background:`url(${imgUrl})`,backgroundSize:'cover', 
+        width: '235px',  // Set the desired width
+        height: '250px' }}>
             <div className= 'overlay items-center justify-center top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 '>
                 <a
                         href={gitUrl}

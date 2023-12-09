@@ -1,7 +1,6 @@
 import React from "react";
 import TypeWritter from "typewriter-effect";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import dynamic from "next/dynamic";
 
 const HeroSection = () => {
@@ -47,14 +46,14 @@ const HeroSection = () => {
                 Slide down to know more about me! 
               </p>
              
-              <Link
+              <a
                 href="#projects" 
                 className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
                 <span className="text-xl text-white">Projects</span>
-              </Link>
+              </a>
              
               <a
-                href=""
+                href="https://drive.google.com/file/d/1wsme1WEVNIAIDSsbxHUiWhzDsIh95Z_t/view?usp=sharing"
                 target="_blank"
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
                 <span className="text-xl text-white">View my Resume</span>
@@ -68,7 +67,7 @@ const HeroSection = () => {
             >
             <div className="w-[400px] h-[400px] relative z-0">
               <img
-                src="/Hero-Section.png"
+                src="/Hero-section.png"
                 alt="hero section"
                 className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={450}
