@@ -6,7 +6,7 @@ const projectData = [
         id: 1,
         title: "TicketWave",
         description: "A project on Blockchain based on ticketing",
-        image: "/projects/TicketWave.png",
+        image: "/projects/Ticketwave.png",
         gitUrl: "https://devfolio.co/projects/ticketwave-f4c7"
 
     },
@@ -29,7 +29,7 @@ const Project = () => {
                 key={project.id}
                 title={project.title}
                 description={project.description}
-                imgUrl={project.image} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }}
+                imgUrl={project.image} style={{ width: '100%', height: '100%', objectFit: 'scale-down', borderRadius: '12px' }}
                 gitUrl={project.gitUrl}
                 />
             ))}
