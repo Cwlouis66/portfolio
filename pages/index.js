@@ -1,25 +1,22 @@
 import React from "react";
-import HeroSection from "@/Components/HeroSection";
-import Project from "@/Components/Project";
-import AchievementsSection from "@/Components/Achievements";
-import AboutMe from "@/Components/AboutMe";
-import EmailSection from "@/Components/Email";
-import Footer from "@/Components/Footer";
+import HeroSection from "@/components/HeroSection";
+import Project from "@/components/Project";
+import AchievementsSection from "@/components/Achievements";
+import AboutMe from "@/components/AboutMe";
+import EmailSection from "@/components/Email";
+import Footer from "@/components/Footer";
 
-
-export default function Home(){
-  return(
+export default function Home() {
+  return (
     <div calssName="flex min-h-screen flex-col">
       <main>
-      <HeroSection />
-      <AchievementsSection />
-      <AboutMe />
-      <Project />
-      <EmailSection />
+        <HeroSection />
+        <AchievementsSection />
+        <AboutMe />
+        <Project />
+        <EmailSection />
       </main>
       <Footer />
-      
-
     </div>
   );
 }
